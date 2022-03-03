@@ -1,21 +1,14 @@
-h1 {
-    font-family: 'PT Serif', serif;
-}
-p {
-	font-family: 'Roboto', sans-serif;
-}
 body {
   margin: 0;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px red;
+  margin-bottom: 100px;
 }
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 .main-logo {
   position: relative;
@@ -67,4 +60,32 @@ body {
 }
 .menu__item:last-child {
   margin-right: 0;
+}
+.main {
+  padding: 0 63% 100px 0;
+  background: url('file://D:/WebHeroSchool/MyFirstWork%20(GD)/SiteOfMe/img/mainImg.svg.svg') no-repeat top right;
+}
+.main__title {
+  margin-bottom: 40px;
+  font: bold 50px/66px PT_Serif, Arial, Helvetica, Sans-serif;
+}
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+.main__subtitle {
+  margin-bottom: 41px;
+  font: 400 18px/21px Roboto, Arial, Helvetica, Sans-serif;
+}
+.main__button {
+	display: inline-block;
+   padding: 14px 16px;
+   text-decoration: none;
+   color: #FFF;
+   background: #0056EC;
+   border-radius: 4px;
+  font: 500 14px/16px Roboto, Arial, Helvetica, Sans-serif;
+  transition: opacity .5s;
+}
+.main__button:hover {
+ opacity: .5;
 }
