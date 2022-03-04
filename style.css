@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+  padding-left: 65px;
 }
 .wrapper {
   margin: auto;
@@ -14,6 +15,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
+  margin-right: 960px;
   font: bold 24px/31.8px PT_Serif, Arial, Helvetica, Sans-serif;
 }
 .logo__circle {
@@ -37,6 +39,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  left: 217px;
 }
 .menu__item {
   position: relative;
@@ -62,28 +65,28 @@ body {
   margin-right: 0;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 52px 45% 40px 65px;
   background: url('file://D:/WebHeroSchool/MyFirstWork%20(GD)/SiteOfMe/img/mainImg.svg.svg') no-repeat top right;
 }
 .main__title {
-  margin-bottom: 40px;
-  font: bold 50px/66px PT_Serif, Arial, Helvetica, Sans-serif;
+  margin-bottom: 35px;
+  font: bold 66px/87px PT_Serif, Arial, Helvetica, Sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
 }
 .main__subtitle {
-  margin-bottom: 41px;
-  font: 400 18px/21px Roboto, Arial, Helvetica, Sans-serif;
+  margin-bottom: 43px;
+  font: 400 22px/26px Roboto, Arial, Helvetica, Sans-serif;
 }
 .main__button {
 	display: inline-block;
-   padding: 14px 16px;
+   padding: 16px 18px;
    text-decoration: none;
    color: #FFF;
    background: #0056EC;
    border-radius: 4px;
-  font: 500 14px/16px Roboto, Arial, Helvetica, Sans-serif;
+  font: 500 18px/21px Roboto, Arial, Helvetica, Sans-serif;
   transition: opacity .5s;
 }
 .main__button:hover {
