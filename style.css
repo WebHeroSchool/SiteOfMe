@@ -63,8 +63,8 @@ body {
 }
 .main {
   padding: 52px 45% 40px 197px;
-  background: url("../img/mainimg.svg") no-repeat;
-  background-position: top right;
+  background: url("img/mainimg.svg") no-repeat;
+  background-position: right;
 }
 .main__title {
   margin-bottom: 35px;
