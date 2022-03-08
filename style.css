@@ -4,11 +4,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 146px;
+  margin-left: 195px;
+  margin-right: 205px;
 }
 .wrapper {
   margin: auto;
-  width: 85%;
+  width: 1920px;
 }
 .main-logo {
   position: relative;
@@ -62,23 +64,29 @@ body {
   margin-right: 0;
 }
 .main {
-  padding: 52px 45% 40px 197px;
+  margin-left: 195px;
+  margin-right: 205px;
+  padding: 7px 63% 200px 0;
   background: url("img/mainimg.svg") no-repeat;
-  background-position: right;
+  background-position: top right;
 }
 .main__title {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
+  width: 567px;
+  height: 255px;
   font: bold 66px/87px PT_Serif, Arial, Helvetica, Sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
 }
 .main__subtitle {
-  margin-bottom: 43px;
-  font: 400 22px/26px Roboto, Arial, Helvetica, Sans-serif;
+  margin-bottom: 41px;
+  width: 455px;
+  height: 52px;
+  font: normal 22px/26px Roboto, Arial, Helvetica, Sans-serif;
 }
 .main__button {
-	display: inline-block;
+   display: inline-block;
    padding: 16px 20px;
    text-decoration: none;
    color: #FFF;
