@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 body {
   margin: 0;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 146px;
+  margin-bottom: 120px;
   margin-left: 195px;
-  margin-right: 205px;
+  margin-right: 203px;
 }
 .wrapper {
   margin: auto;
@@ -16,7 +17,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31.8px PT_Serif, Arial, Helvetica, Sans-serif;
+  font: bold 24px/31.8px pt_serifbold, Arial, Helvetica, Sans-serif;
 }
 .logo__circle {
   width: 28px;
@@ -66,28 +67,30 @@ body {
 .main {
   margin-left: 195px;
   margin-right: 205px;
-  padding: 7px 63% 200px 0;
+  padding: 29px 63% 200px 0;
   background: url("img/mainimg.svg") no-repeat;
-  background-position: top right;
+  background-position: top 9px right -7px;
 }
 .main__title {
-  margin-bottom: 40px;
+  margin-bottom: 42px;
   width: 567px;
   height: 255px;
-  font: bold 66px/87px PT_Serif, Arial, Helvetica, Sans-serif;
+  font: bold 66px/87px pt_serifbold, Arial, Helvetica, Sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
+  margin-top: 0;
 }
 .main__subtitle {
   margin-bottom: 41px;
   width: 455px;
   height: 52px;
-  font: normal 22px/26px Roboto, Arial, Helvetica, Sans-serif;
+  font: 500 22px/26px Roboto, Arial, Helvetica, Sans-serif;
 }
 .main__button {
    display: inline-block;
-   padding: 16px 20px;
+   padding: 18px 36px 17px 19px;
+   margin-bottom: 270px;
    text-decoration: none;
    color: #FFF;
    background: #0056EC;
@@ -97,4 +100,31 @@ body {
 }
 .main__button:hover {
  opacity: .5;
+}
+.one__circle {
+   margin-left: 749px;
+   background: #C8DBFB repeat-x;
+   width: 8px;
+   height: 8px;
+   position: absolute;
+   border-radius: 50%;
+   opacity: .7;
+}
+.two__circle {
+   background: #C8DBFB repeat-x;
+   width: 8px;
+   height: 8px;
+   margin-left: 761px;
+   position: absolute;
+   border-radius: 50%;
+   opacity: .7;
+}
+.three__circle {
+   background: #C8DBFB repeat-x;
+   width: 8px;
+   height: 8px;
+   margin-left: 773px;
+   position: absolute;
+   border-radius: 50%;
+   opacity: .7;
 }
